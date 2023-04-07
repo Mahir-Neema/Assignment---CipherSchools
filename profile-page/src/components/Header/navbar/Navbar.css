@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: grey 1px solid;
+}
+
+.left-side{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 20%;
+    margin: 15px;
+    align-items: center;
+}
+
+/* .Listul{
+    margin-top: 30px;
+    margin: 10px;
+    padding: 10px;
+
+} */
+
+.cipherschool-logo img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.right-side{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+}
+
+.searchbox{
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: #f2f5fa;
+    align-items: center;
+}
+
+.searchbox input{
+    background-color: #f2f5fa;
+    margin: 0px 10px 0 10px;
+    width: 230px;
+}
+
+.search-learnbox{
+    border: none;
+}
